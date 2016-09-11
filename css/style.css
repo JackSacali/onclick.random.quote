@@ -1,0 +1,50 @@
+body {
+    background-color: orange;
+    color: orange;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+a:link, a:visited, a:active {
+   color:inherit;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 25px);
+}
+
+.box {
+    background-color: white;
+    border-radius: 25px;
+    
+}
+.content {
+    margin: 20px;
+}
+.main {
+    font-size: 2em;
+    text-align: center;
+}
+.author {
+    font-style: italic;
+    text-align: right;
+    margin-right: 60px;
+}
+#button {
+    float:right;
+    margin-top: 10px;
+    margin-right: 100px;
+    border-radius: 20px;
+    line-height: 2.4em;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+}
+#button:hover, a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
